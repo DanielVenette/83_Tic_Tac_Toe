@@ -48,7 +48,7 @@ while(keep_playing):
         else:
             print("Please enter a valid response")
 
-print("Thanks for playing!")
+print("Thanks for playing! ")
 
 # print(x_spaces[0])
 
