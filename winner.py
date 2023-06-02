@@ -14,11 +14,11 @@ def check_for_winner(x_spaces, o_spaces):
 
     for combination in winning_combinations:
         if all(space in x_spaces for space in combination):
-            print("X is the winner")
+            print("Player X is the winner")
             winner_exists = True
             break
         if all(space in o_spaces for space in combination):
-            print("O is the winner")
+            print("Player O is the winner")
             winner_exists = True
             break
 
